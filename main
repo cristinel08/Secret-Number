@@ -30,10 +30,10 @@ int main()
                         else                                                                                  
                             cout << "Felicitari!!! Ati ghicit din a "                                        
                              << i << " a incercare" <<'\n';
-                        break;                                                                              //if the user finds the secret number the loop closes
+                        break;                                                                              //if the user finds the secret number, the loop closes
                         }
-            else if (numar_incercare < n) cout << "Numarul introdus este mai mic decat numarul secret" << endl;         // showing if the secret number is greater or lesser then
-																															//the input of the user 
+            else if (numar_incercare < n) cout << "Numarul introdus este mai mic decat numarul secret" << endl;         // showing if the secret number is greater or 
+														       // lesser then the input of the user 
             else cout << "Numarul introdus este mai mare decat numarul secret " << endl;                               
             }
         else cout << "Numarul introdus nu este intre -500 si 500" << endl;                //if the input of the user isn't between -500 and 500
